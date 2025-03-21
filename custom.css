@@ -11986,12 +11986,12 @@ footer {
 }
 @media screen and (min-width: 992px) {
   footer {
-    max-width: 70%;
+    max-width: 90%;
   }
 }
 @media screen and (min-width: 1200px) {
   footer {
-    max-width: 60%;
+    max-width: 90%;
   }
 }
 
@@ -12011,12 +12011,12 @@ footer {
 }
 @media screen and (min-width: 992px) {
   #footerIcons {
-    max-width: 70%;
+    max-width: 90%;
   }
 }
 @media screen and (min-width: 1200px) {
   #footerIcons {
-    max-width: 60%;
+    max-width: 90%;
   }
 }
 
@@ -12031,12 +12031,12 @@ footer {
 }
 @media screen and (min-width: 768px) {
   #carouselExample {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media screen and (min-width: 992px) {
   #carouselExample {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -12060,12 +12060,12 @@ main {
 }
 @media screen and (min-width: 768px) {
   main {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media screen and (min-width: 992px) {
   main {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -12076,4 +12076,29 @@ main {
 
 body {
   font-family: "Bubblegum Sans", cursive;
+}
+
+header {
+  max-width: 80%;
+  margin-inline: auto;
+}
+@media screen and (min-width: 576px) {
+  header {
+    max-width: 85%;
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    max-width: 95%;
+  }
+}
+@media screen and (min-width: 992px) {
+  header {
+    max-width: 95%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header {
+    max-width: 95%;
+  }
 }/*# sourceMappingURL=custom.css.map */
