@@ -69,3 +69,7 @@ body {
 header {
   @include carouselContent;
 }
+.card-img-top {
+  height: 150px; /* Modifica il valore per impostare l'altezza desiderata */
+  object-fit: cover; /* Facoltativo: mantiene il contenuto dell'immagine ben proporzionato */
+}

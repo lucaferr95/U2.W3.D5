@@ -41,7 +41,7 @@ const getConfezione = function () {
         row.innerHTML += `
             <div class="col col-12 col-lg-3 col-md-4 col-sm-6">
               <div class="card">
-                <img src="${confezione.imageUrl}" class="card-img-top" alt="..." />
+                <img src="${confezione.imageUrl}" class="card-img-top height=50px" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">${confezione.name}</h5>
                   <p class="card-text">${confezione.description}</p>
