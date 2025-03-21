@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HARIBO STORE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  
+ <header class="underline">
+    <nav
+      class="navbar navbar-expand-lg bg-danger bg-gradient rounded-pill mt-2 px-3"
+      bs-theme="light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://bmstores.fr/img/cms/MARQUES/Marques%20ent%C3%AAtes/HARIBO250.png"
+            alt="Haribo"
+            width="80"
+            height="80"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mb-1 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./backoffice.html">Backoffice</a>
+            </li>
+          </ul>
+          <div
+            class="d-flex flex-wrap justify-content-end align-items-center p-2"
+          >
+            <a href="#" class="me-2 text-white">Prodotti</a>
+            <a href="#" class="me-2 text-white">Da non perdere</a>
+            <a href="#" class="me-2 text-white">Chi siamo</a>
+            <a href="#" class="me-2 text-white">Carriera</a>
+            <a href="#" class="me-2 text-white">FAQ</a>
+            <img
+              src="https://assets.haribo.com/image/upload/s--7WIOHOlI--/f_auto/w_406/v1/consumer-sites/it-it/HRB_Decorativo_orsettoextrasucco.png"
+              width="50"
+              height="50"
+              alt="Mascotte Haribo"
+              class="ms-2 mascotte"
+            />
+          </div>
+          <form class="d-flex mt-2 mt-lg-0" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-warning" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide my-1">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Screenshot 2025-03-21 135319.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/Screenshot 2025-03-21 135231.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/Screenshot 2025-03-21 135221.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="  visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+<main class="flex-grow-1">
+      <h1 class="text-center text-white">Haribo Shop</h1>
+      <h2 class="text-center text-white-50">Cerca e acquista le tue caramelle preferite!</h2>
+      <div class="text-center" id="spinner-container">
+        <div class="text-success spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" id="events-row">
+          <!-- con JS qui dentro creerò colonne contenenti card sulla base
+             degli eventi che recupererò dal DB -->
+        </div>
+      </div>
+    </main>
+    <footer class="bg-primary bg-gradient text-white text-center py-3 rounded-pill mt-2 px-3">
+      <p class="m-0">
+        HARIBO E' LA BONTA CHE SI GUSTA AD OGNI ETA' - <span id="year"></span>
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
